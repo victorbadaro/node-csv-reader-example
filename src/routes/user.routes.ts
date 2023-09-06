@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { createUserController } from '../useCases/createUser';
 
 const userRoutes = Router();
 
@@ -8,9 +9,7 @@ userRoutes.get('/', (request, response) => {
 	return response.json(users);
 });
 userRoutes.post('/', (request, response) => {
-	const user = {};
-
-	return response.status(201).json(user);
+	return createUserController.handle(request, response);
 });
 
 export { userRoutes };
