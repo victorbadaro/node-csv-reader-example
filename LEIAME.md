@@ -47,7 +47,7 @@ _(Você pode ver todas as dependências do projeto no arquivo [package.json](./p
    ```
 
 ## 👌 Requisições
-Agora o servidor está pronto para receber suas requisições! Tem uma [request collection](./request_collection.json) na raíz do projeto para que você possa usar (utilize o [insomnia](https://insomnia.rest/) para importar a collection). Lembre-se de informar a porta do servidor na variável de ambiente `port` no seu rest client!<br />
+Agora o servidor está pronto para receber suas requisições! Tem uma [request collection](./request-collection.json) na raíz do projeto para que você possa usar (utilize o [insomnia](https://insomnia.rest/) para importar a collection). Lembre-se de informar a porta do servidor na variável de ambiente `port` no seu rest client!<br />
 Aqui estão as requisições que você pode fazer:
 
 - GET /users
